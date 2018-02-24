@@ -1,0 +1,135 @@
+body{
+    background-image:url("img/bg1.jpg");
+    background-repeat: repeat;
+    margin:0 auto;    
+}
+img
+{
+    width:80%;
+    margin:0 auto;
+    display: block;
+}
+.heading {
+
+    padding: 0;
+    margin-bottom: 2px;
+    color:#8d9bb2;
+    /*border: 2px solid;*/
+    font-size: 45px;
+    font-family: "Brush Script MT", Brush Script Std, cursiv;
+    vertical-align: top;
+    padding: 0 auto;
+    display: inline-block;
+}
+
+nav {
+    border-style: dashed;
+    border-color: white;
+    border-width: 3px;
+    min-width: 40px;
+    background-color: rgba(40, 202, 220, 0.3);
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.nav1{
+    color: red;
+    list-style-type: none;
+}
+
+nav li{
+border: dashed 2px black;
+    background: rgba(188,55,255, 0.75);
+    display: inline-block;
+}
+h1{
+    color: #4e8ae5;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+ h2{
+    color: #6a99e8;
+    background-color: #ddeaff;
+    text-align:center;
+    font-family: "Stencil Std", fantasy; 
+    font-size: 40px;
+
+ }
+ ul {
+    font-family: Snell Roundhand, cursive;
+    list-style-position: inside;
+    
+}
+section{
+    font-size: 21px;
+    font-family: Snell Roundhand, cursive;
+    color: #153970;
+    margin-left: 20px;
+}
+
+ h3{
+    background-color: #ddeaff;
+    text-align:center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: #3e639b;
+ }
+
+footer {
+     position: absolute;
+     bottom: 15;
+    border-left: 15%;
+    width: 100%;
+    text-align: center;
+    background-color: #ddeaff;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.hidden{
+    display: none;
+}
+
+.formStyle{
+    margin:0px auto;
+    width:350px;
+    text-align: center;
+    border:solid 2px black;
+    
+}
+
+
+article{
+    margin-left: 150px;
+}
+h2{
+    
+    background-color: #d7deea;
+
+
+    /*vendor prefix */
+
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 10s infinite alternate;
+    /*-moz-  this is for firfox*/
+    /*-ms-  this is for ie/edge*/
+    /*-o-  this is for pre webkit opera*/
+
+    /* animation stuff*/
+    animation-name: example;
+    animation-duration: 10s;
+
+}
+
+@-webkit-keyframes example {
+    from{background-color: #d7deea;}
+    to{background-color: #d4e1f7;}
+
+@keyframes example {
+    from{background-color: #d7deea;}
+    to{background-color: #d4e1f7;}
+}
+
+.button
+{
+    margin-left: 25px;
+}
